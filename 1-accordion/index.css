@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-section {
+  background-color: #eee;
+  color: #333;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  text-align: left;
+  border: none;
+}
+
+.btn-section:after {
+  content: '\02795';
+  font-size: 14px;
+  float: right;
+}
+.active:after {
+  content: '\2796';
+}
+
+.active,
+.btn-section:hover {
+  background-color: #aaa;
+}
+
+.panel {
+  padding: 20px;
+  font-size: 18px;
+  background-color: white;
+  color: #222;
+  overflow: hidden;
+  display: none;
+}
