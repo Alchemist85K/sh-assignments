@@ -16,6 +16,12 @@
 npm install
 ```
 
+추가로, 아래 명령어를 이용해서 playwright를 설치하세요.
+
+```bash
+npx playwright install
+```
+
 ## test
 
 아래 명령어를 실행하면 테스트가 진행됩니다.
