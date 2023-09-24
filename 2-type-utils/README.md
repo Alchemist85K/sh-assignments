@@ -1,4 +1,4 @@
-# Accordion
+# Type
 
 `index.js` 파일에 작성된 함수를 완성하세요.  
 각 함수는 JavaScript의 타입을 검사하는 함수입니다.  
