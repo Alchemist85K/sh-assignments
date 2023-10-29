@@ -16,6 +16,6 @@ export const signIn = (id, pw) => {
           }
         })
         .catch(e => console.error(e));
-    }, 200);
+    }, 1000);
   });
 };
