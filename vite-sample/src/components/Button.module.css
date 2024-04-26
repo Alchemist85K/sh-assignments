@@ -1,0 +1,23 @@
+.btn {
+  width: 100%;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.signIn {
+  background-color: #6366f1;
+}
+.signIn:hover {
+  background-color: #4338ca;
+}
+
+.signOut {
+  background-color: #f43f5e;
+}
+.signOut:hover {
+  background-color: #be123c;
+}
