@@ -3,11 +3,13 @@ import { useState, useRef } from 'react';
 import { signin } from '../apis/auth';
 import Input, { InputType } from '../components/Input';
 import Button, { ButtonType } from '../components/Button';
+import { useAuthContext } from '../contexts/AuthContext';
 
-function SignInScreen({ setAuth }) {
+function SignInScreen() {
   const emailRef = useRef();
   const passwordRef = useRef();
   const [encrypt, setEncrypt] = useState(true);
+  const { setAuth } = useAuthContext();
 
   const handleSubmit = async () => {
     try {

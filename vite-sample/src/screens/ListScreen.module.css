@@ -1,0 +1,23 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background-color: white;
+  color: #333333;
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  max-height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
